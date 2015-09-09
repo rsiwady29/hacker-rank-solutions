@@ -1,0 +1,5 @@
+n = input()
+array = map(int, raw_input().split(' '))
+print len([x for x in array if x>0])/float(n)
+print len([x for x in array if x<0])/float(n)
+print len([x for x in array if x==0])/float(n)
